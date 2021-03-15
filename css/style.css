@@ -35,14 +35,16 @@ nav ul li a {
 	padding-top: 44px;
 	overflow: hidden;
 }
-nav ul li#nav_concept a {
-	background-image: url(../images/nav1.png);
+
+
+nav ul li#nav_concept a{
+	background-image: url(../images/codeposition2.png);
 }
 nav ul li#nav_plan a {
-	background-image: url(../images/nav2.png);
+	background-image: url(../images/skil2.png);
 }
 nav ul li#nav_fair a {
-	background-image: url(../images/nav3.png);
+	background-image: url(../images/image.png);
 }
 nav ul li#nav_contact a {
 	background-image: url(../images/nav4.png);
@@ -67,7 +69,7 @@ footer {
 	font-size: 156.25%;
 }
 #concept #nav_concept a, #plan #nav_plan a, #fair #nav_fair a, #contact #nav_contact a, nav ul li a:hover {
-	background-position: 0 -45px;
+	background-position: 0 -46px;
 }
 /* 基本レイアウト ここまで↑ */
 
@@ -100,6 +102,10 @@ table thead tr th {
 }
 table tbody tr:nth-child(odd) {
 	background-color: #ffffff
+}
+.chose {
+	width: 170px;
+	height: 170px;
 }
 /* 「プランのご案内」ページ ここまで↑ */
 .gallery_box figure {
